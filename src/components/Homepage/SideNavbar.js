@@ -5,10 +5,12 @@ import {
     NavbarToggler,
     NavbarBrand,
     Nav,
-    NavItem,
-    NavLink
+    NavItem
 } from 'reactstrap';
 import "./SideNavbar.css";
+
+import { Link } from 'react-scroll';
+
 
 class SideNavbar extends Component {
 
@@ -37,30 +39,42 @@ class SideNavbar extends Component {
                     </span>
                 </NavbarBrand>
 
-                {/* <NavbarToggler onClick={this.toggle} /> */}
+                <NavbarToggler onClick={this.toggle} />
 
-                {/* <Collapse isOpen={this.state.isOpen} navbar>
+                <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar>
+
                         <NavItem>
-                            <NavLink href="#about">About</NavLink>
+                            <Link activeClass="active" className="nav-link" to="about" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+                                About
+                            </Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#experience">Work Experience</NavLink>
+                            <Link activeClass="active" className="nav-link" to="experience" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+                                Work Experience
+                            </Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#education">Education</NavLink>
+                            <Link activeClass="active" className="nav-link" to="education" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+                                Education
+                            </Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#projects">Academic Projects</NavLink>
+                            <Link activeClass="active" className="nav-link" to="projects" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+                                Academic Projects
+                            </Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#skills">Skills</NavLink>
+                            <Link activeClass="active" className="nav-link" to="skills" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+                                Skills
+                            </Link>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLink href="#interests">Interests</NavLink>
-                        </NavItem>
+                        </NavItem> */}
+
                     </Nav>
-                </Collapse> */}
+                </Collapse>
 
             </Navbar>
         );
