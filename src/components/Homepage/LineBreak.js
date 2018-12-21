@@ -4,7 +4,7 @@ class LineBreak extends Component {
 
     render() {
         return (
-            <hr class="m-0" />
+            <hr className="m-0" />
         );
     }
 

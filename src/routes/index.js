@@ -4,6 +4,9 @@ import About from "../components/Homepage/About";
 import LineBreak from "../components/Homepage/LineBreak";
 import Education from "../components/Homepage/Education";
 import Experience from "../components/Homepage/Experience";
+import Skills from "../components/Homepage/Skills";
+import Projects from "../components/Homepage/Projects";
+
 
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
@@ -34,21 +37,29 @@ class Index extends Component {
     render() {
         return(
             <div>
-                <SideNavbar scrollLink={Link}/>
+                <SideNavbar/>
                 <div className="container-fluid p-0">
-                    {/* <Link activeClass="active" className="about" to="about" spy={true} smooth={true} duration={500} > */}
                     <Element name="about" className="element">
+                        <LineBreak />
                         <About />
                     </Element>
-                    < LineBreak />
+                    
                     <Element name="experience" className="element">
+                        <LineBreak />
                         <Experience />
                     </Element>
-                    <LineBreak />
                     <Element name="education" className="element">
+                        <LineBreak />
                         <Education />
                     </Element>
-                    <LineBreak />
+                    <Element name="projects" className="element">
+                        <LineBreak />
+                        <Projects />
+                    </Element>
+                    <Element name="skills" className="element">
+                        <LineBreak />
+                        <Skills />
+                    </Element>
 
                 </div>
             </div>

@@ -4,7 +4,7 @@ class Experience extends Component {
 
     render() {
         return (
-            <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+            <section className="resume-section p-3 p-lg-5 d-flex flex-column">
                 <div className="my-auto">
                     <h2 className="mb-5">Experience</h2>
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
@@ -25,7 +25,7 @@ class Experience extends Component {
                             </p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">November 2016 - December 2017</span>
+                            <span className="text-info">November 2016 - December 2017</span>
                         </div>
                     </div>
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
@@ -41,7 +41,7 @@ class Experience extends Component {
                             </p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">April 2016 - June 2016</span>
+                            <span className="text-info">April 2016 - June 2016</span>
                         </div>
                     </div>
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
@@ -61,7 +61,7 @@ class Experience extends Component {
                             </p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">July 2010 - December 2011</span>
+                            <span className="text-info">July 2010 - December 2011</span>
                         </div>
                     </div>
                 </div>
