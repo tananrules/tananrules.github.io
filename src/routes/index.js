@@ -6,12 +6,9 @@ import Education from "../components/Homepage/Education";
 import Experience from "../components/Homepage/Experience";
 import Skills from "../components/Homepage/Skills";
 import Projects from "../components/Homepage/Projects";
+import Interests from "../components/Homepage/Interests";
 
-
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-
-
-
+import { Element, Events, animateScroll as scroll } from 'react-scroll';
 
 class Index extends Component {
 
@@ -43,7 +40,6 @@ class Index extends Component {
                         <LineBreak />
                         <About />
                     </Element>
-                    
                     <Element name="experience" className="element">
                         <LineBreak />
                         <Experience />
@@ -60,7 +56,10 @@ class Index extends Component {
                         <LineBreak />
                         <Skills />
                     </Element>
-
+                    <Element name="interests" className="element">
+                        <LineBreak />
+                        <Interests />
+                    </Element>
                 </div>
             </div>
         )

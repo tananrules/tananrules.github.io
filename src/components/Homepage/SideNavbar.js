@@ -69,10 +69,11 @@ class SideNavbar extends Component {
                                 Skills
                             </Link>
                         </NavItem>
-                        {/* <NavItem>
-                            <NavLink href="#interests">Interests</NavLink>
-                        </NavItem> */}
-
+                        <NavItem>
+                            <Link activeClass="active" className="nav-link" to="interests" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+                                Interests
+                            </Link>                        
+                        </NavItem>
                     </Nav>
                 </Collapse>
 
