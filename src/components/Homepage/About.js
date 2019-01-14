@@ -33,7 +33,7 @@ class About extends Component {
                         <a href="https://www.facebook.com/tananrules">
                             <FontAwesomeIcon icon={faFacebook} />
                         </a>
-                        <a href="mailto:tarunarora0807@gmail.com">
+                        <a href="mailto:tarun.arora@sjsu.edu">
                             <FontAwesomeIcon icon={faEnvelope} />
                         </a>
                     </div>
