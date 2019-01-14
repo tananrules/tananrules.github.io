@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons";
-
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 class About extends Component {
 
@@ -32,6 +32,9 @@ class About extends Component {
                         </a>
                         <a href="https://www.facebook.com/tananrules">
                             <FontAwesomeIcon icon={faFacebook} />
+                        </a>
+                        <a href="mailto:tarunarora0807@gmail.com">
+                            <FontAwesomeIcon icon={faEnvelope} />
                         </a>
                     </div>
                 </div>
