@@ -16,9 +16,10 @@ class About extends Component {
                         <a href="mailto:tarun.arora@sjsu.edu"> tarun.arora@sjsu.edu</a>
                     </div>
                     <p className="lead mb-5">
-                        Full Stack Developer with expertise in Frontend technologies like Ember, React and Angular along with Backend
-                        technologies like Spring Boot, and NodeJS actively seeking Internship/Co-op opportunities for Spring 2019 as well as
-                        Summer 2019.
+                        As a Software Engineer Intern at CBS Interactive, I work on the beauty and brains of what you see on the MaxPreps Photography web page. <br/>
+                        I work with React & Next and write highly efficient reusable components. The highly maintainable code which can be easily debugged and Server Side Rendered web pages for best user experience. <br /><br />
+                        I am a Full Stack Developer with expertise in Javascript and frontend technologies like React, Next, Ember, and Angular along with backend technologies like Java, Spring Boot and Node actively seeking Full-Time SDE opportunities.<br /><br />
+                        I love to go hunt for new places to eat and go for drives. Go hike a nearby trail or just watch Netflix and get lazy
                     </p>
                     <div className="social-icons">
                         <a href="https://www.linkedin.com/in/tarunarorasjsu/">

@@ -9,6 +9,21 @@ class Experience extends Component {
                     <h2 className="mb-5">Experience</h2>
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
                         <div className="resume-content mr-auto">
+                            <h3 className="mb-0">Software Engineer Intern</h3>
+                            <div className="subheading mb-3">CBS Interactive · MaxPreps</div>
+                            <p>
+                                Developed new MaxPreps’ Photography pages using React, Next and Styled Components. Implemented Server-Side Rendering which improved the first load performance by 50%.
+                            </p>
+                            <p>
+                                Contributed on live Sprints & Sprint Retros with the frontend team and built various components for Coach Admin application.
+                            </p>
+                        </div>
+                        <div className="resume-date text-md-right">
+                            <span className="text-info">June 2019 - Current</span>
+                        </div>
+                    </div>
+                    <div className="resume-item d-flex flex-column flex-md-row mb-5">
+                        <div className="resume-content mr-auto">
                             <h3 className="mb-0">Frontend engineer (Remote)</h3>
                             <div className="subheading mb-3">Upwork · Freelance Contractor</div>
                             <p>

@@ -9,6 +9,15 @@ class Projects extends Component {
                     <h2 className="mb-5">Academic Projects</h2>
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
                         <div className="resume-content mr-auto">
+                            <h4 className="mb-0">Twitter Tweets Stream Analysis (AWS)</h4>
+                            <div>With the help of Pubnub streams, AWS Kinesis Firehose, AWS Kinesis Analytics, AWS Glue, Athena, S3 & AWS QuickSight developed a data lake architecture for real-time data analysis and historic data analysis. Automated the entire pipeline using Glue crawlers and dumping the analytics results and raw data into S3.</div>
+                        </div>
+                        <div className="resume-date text-md-right">
+                            <span className="text-info">Spring 2018</span>
+                        </div>
+                    </div>
+                    <div className="resume-item d-flex flex-column flex-md-row mb-5">
+                        <div className="resume-content mr-auto">
                             <h4 className="mb-0">Recommendation and Prediction Engine</h4>
                             <div>Made a recommendation engine on Jupyter Notebook with Python 3 using Airbnb NYC Kaggle data utilizing SVD Matrix Factorization, Semantic Analysis and Linear Regression.</div>
                         </div>
@@ -19,7 +28,7 @@ class Projects extends Component {
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
                         <div className="resume-content mr-auto">
                             <h4 className="mb-0">Netflix Prototype</h4>
-                            <div>Developed a prototype similar to Netflix.com to enable movie watching and computed statistics and financial reports using Spring-boot and React.</div>
+                            <div>Developed a prototype similar to Netflix.com to enable movie watching and computed statistics and financial reports using Spring-boot JAVA and React.</div>
                         </div>
                         <div className="resume-date text-md-right">
                             <span className="text-info">Fall 2018</span>
